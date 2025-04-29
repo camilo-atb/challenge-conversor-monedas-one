@@ -78,7 +78,7 @@ public class Principal {
         monedaConversion = obtenerMoneda(input);
 
         // DEFINIMOS LA URL
-        final String KEY = "e8dff7b80d91b314a238b445";
+        final String KEY = "tu-clave";
         final String URL = "https://v6.exchangerate-api.com/v6/"+ KEY + "/latest/" + monedaBase;
         // CREAMOS EL CLIENTE
         HttpClient client = HttpClient.newHttpClient();
